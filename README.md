@@ -1,16 +1,28 @@
 # Bug Tracking System
 
-A Java console-based Bug Tracking System developed using Java and MySQL.
+This project was developed as part of my Java learning journey. It is a console-based Bug Tracking System that allows users to register, log in, report software bugs, update their status, and manage bug records using a MySQL database.
+## Screenshots
 
-## Features
-- User Registration
-- User Login
-- Report Bugs
-- View All Bugs
-- Update Bug Status
-- Delete Bugs
-- MySQL Database Integration (JDBC)
+### Login Menu
 
+![Login Menu](screenshots/start-menu.png)
+![Login Menu](screenshots/login.png)
+
+### User Registration
+
+![User Registration](screenshots/register.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Report Bug
+
+![Report Bug](screenshots/report-bug.png)
+
+### View All Bugs
+
+![View All Bugs](screenshots/view-bugs.png)
 ## Technologies Used
 - Java
 - MySQL
