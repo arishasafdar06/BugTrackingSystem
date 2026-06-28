@@ -1,18 +1,42 @@
-## Getting Started
+# Bug Tracking System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java console-based Bug Tracking System developed using Java and MySQL.
 
-## Folder Structure
+## Features
+- User Registration
+- User Login
+- Report Bugs
+- View All Bugs
+- Update Bug Status
+- Delete Bugs
+- MySQL Database Integration (JDBC)
 
-The workspace contains two folders by default, where:
+## Technologies Used
+- Java
+- MySQL
+- JDBC
+- VS Code
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Project Structure
+```
+src/
+├── dao/
+├── database/
+├── model/
+├── Main.java
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+lib/
+└── mysql-connector-j-9.7.0.jar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+database_script.sql
+README.md
+```
 
-## Dependency Management
+## Database Setup
+1. Start MySQL using XAMPP.
+2. Create a database named `bug_tracking`.
+3. Import the `database_script.sql` file.
+4. Run the project from `Main.java`.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Author
+Arisha Fatima
